@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+}
+
+.header img {
+    width: 100%;
+    position: relative;
+}
+.header div {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    right: 10%;
+    text-align: end;
+}
+
+.header div h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.header div p {
+    margin-bottom: 10%;
+}
+
+.header div a {
+    background-color: orangered;
+    padding: 3% 5%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header {
+    flex-direction: column;
+}
+.header div {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: ;
+    text-align: center;
+}
+
+}
